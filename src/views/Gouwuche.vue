@@ -1,11 +1,6 @@
 <template>
   <div>
-    <p>首页</p>
-    <p>首页</p>
-    <p>首页</p>
-    <p>首页</p>
-    <p>首页</p>
-    
+    <p>购物车</p>
   </div>
 </template>
 
