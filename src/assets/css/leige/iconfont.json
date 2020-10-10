@@ -1,0 +1,65 @@
+{
+  "id": "2097114",
+  "name": "pdd-dome",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "253567",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "679773",
+      "name": "锦囊",
+      "font_class": "jinnang",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "5044295",
+      "name": "齿轮",
+      "font_class": "chilun",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "7846936",
+      "name": "包",
+      "font_class": "bao",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "7857524",
+      "name": "包",
+      "font_class": "bao1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9666174",
+      "name": "代付款",
+      "font_class": "daifukuan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10156382",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "15816240",
+      "name": "042方块",
+      "font_class": "042fangkuai",
+      "unicode": "e7bc",
+      "unicode_decimal": 59324
+    }
+  ]
+}
