@@ -1,0 +1,15 @@
+
+首页轮播图的数据
+https://shiyaming1994.github.io/mi/static/rotationChart.json
+
+
+首页数据
+https://shiyaming1994.github.io/mi/static/homeGoods.json?page=1
+
+
+
+
+
+
+
+
