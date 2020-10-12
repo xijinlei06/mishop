@@ -4,6 +4,8 @@ import Home from "../views/Home.vue";
 import Fenlei from "../views/Fenlei.vue";
 import Geren from "../views/Geren.vue";
 import Gouwuche from "../views/Gouwuche.vue";
+import Site from '../views/Site.vue'
+import Sitemsg from '../views/Sitemsg.vue'
 Vue.use(VueRouter);
 
 const routes = [
@@ -11,27 +13,56 @@ const routes = [
     path: "/",
     name: "/Home",
     component: Home,
+    meta: {
+      isShowTabber: true
+    }
     // redirect: "/Home",
   },
   {
     path: "/Home",
     name: "Home",
     component: Home,
+    meta: {
+      isShowTabber: true
+    }
   },
   {
     path: "/Gouwuche",
     name: "Gouwuche",
-    component: Gouwuche
+    component: Gouwuche,
+    meta: {
+      isShowTabber: true
+    }
   },
   {
     path: "/geren",
     name: "Geren",
-    component: Geren
+    component: Geren,
+    meta: {
+      isShowTabber: true
+    }
   },
   {
     path: "/fenlei",
     name: "Fenlei",
-    component: Fenlei
+    component: Fenlei,
+    meta: {
+      isShowTabber: true
+    }
+  },
+  {
+    path:"/Site",
+    name:'Site',
+    component:Site,
+    meta: {
+      isShowTabber: false
+    }
+  },
+  {
+    path:"/Sitemsg",
+    name:'Sitemsg',
+    component:Sitemsg,
+    
   },
   // {
   //   path: "/about",

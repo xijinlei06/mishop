@@ -25,6 +25,7 @@ import LyTab from 'ly-tab'
 Vue.use(LyTab)
 //浏览器下载阿里矢量图标库
 import '@/assets/img/font_2120369_uivfi5at9x8/iconfont.css'
+import '@/assets/img/font_2121022_fz60i8pug1n/iconfont.css'
 //安装less npm install less --save 不用引入
 new Vue({
   router,

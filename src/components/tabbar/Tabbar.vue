@@ -1,5 +1,5 @@
 <template>
-  <div class="title">
+  <div class="title" v-show="$route.meta.isShowTabber">
     <ul>
       <li
         v-for="(item, index) in list"
