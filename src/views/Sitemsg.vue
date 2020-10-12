@@ -19,20 +19,7 @@
         <div class="msg_b_ri"><span class="iconfont icon-youjiantou"></span></div>
       </div>
     </div>   
-    <!-- <div class="msg">
-      <div class="msg_top">
-        <p>111</p>
-        <p>111111</p>
-        <p>删除</p>
-      </div>
-      <div class="msg_bottom">
-        <div class="msg_b_lt">
-          <p>北京</p>
-          <p>碧兴。。。</p>
-        </div>
-        <div class="msg_b_ri"><span class="iconfont icon-youjiantou"></span></div>
-      </div>
-    </div> -->
+    
     <button @click="newsite">新建地址</button>
   </div>
 </template>
