@@ -114,10 +114,9 @@ export default {
     overflow: hidden;
     div {
       width: 3.34rem;
-      height: 0.55rem;
+      // height: 0.55rem;
       margin-top: 0.5rem;
       margin: auto;
-      
       p {
         color: #ababab;
         float: left;
@@ -148,7 +147,7 @@ export default {
 }
 ul {
   width: 100%;
-
+  height: 10rem;;
   li {
     width: 48%;
     height: 4.61rem;
