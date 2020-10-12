@@ -1,10 +1,12 @@
 <template>
   <div class="site">
+
     <div class="head">
       <div class="head_left" @click="gositemsg"><span class="iconfont icon-zuojiantou"></span></div>
       <h1>新增收货地址</h1>
       <div class="head_right"><span class="iconfont icon-Magnifier"></span></div>
     </div> 
+    
     <div class="personla_info">
       <div class="per_info_left">姓名:</div>
       <input type="text" class="per_info_right" placeholder="真实姓名">
@@ -14,8 +16,15 @@
       <input type="text" class="per_info_right" placeholder="手机号码">
     </div>
     <div class="personla_info">
-      <div class="per_info_left">所在地区:</div>
-      <input type="text" class="per_info_right" placeholder="省 市 区 街道信息">
+      <van-row class="ssq">
+        <van-cell is-link @click="showPopup" >省 市 区 街道信息：</van-cell>
+        <van-popup v-model="show" position="bottom" :style="{ height: '30%' }" />
+        <!-- <van-area
+          title="标题"
+          :area-list="areaList"
+          :columns-placeholder="['请选择', '请选择', '请选择']"
+        /> -->
+      </van-row>
     </div>
     <div class="personla_info">
       <div class="per_info_left">详细地址:</div>
@@ -26,17 +35,22 @@
       <input type="checkbox" name="" id="" checked="checked">
     </div>
     <button>保存地址</button>
+    
   </div>
+
 </template>
 
 <script>
 export default {
   data(){
     return{
-
+      show: false,
     }
   },
   methods:{
+    showPopup() {
+      this.show = true;
+    },
     gositemsg(){
       this.$router.push('/Sitemsg')
     }
@@ -85,6 +99,12 @@ export default {
         height: 1.1rem;
         float: left;
         border: none;
+      }
+      .ssq{
+        width: 100%;
+        height: 1.11rem;
+        float: left;
+        color: #ccc;
       }
     }
     .dalt{
