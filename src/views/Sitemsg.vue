@@ -9,7 +9,7 @@
       <div class="msg_top" >
         <p class="user_name">{{ item.name}}</p>
         <p class="user_phone">{{ item.phone}}</p>
-        <p class="del">删除</p>
+        <p class="del" @click="del">删除</p>
       </div>
       <div class="msg_bottom">
         <div class="msg_b_lt">
@@ -41,6 +41,9 @@ export default {
     })
   },
   methods:{
+    del(){
+
+    },
     back(){
       this.$router.push('/geren')
     },
