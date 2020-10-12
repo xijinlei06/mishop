@@ -66,6 +66,7 @@ export default {
     background:#fff;
     left: 0;
     bottom: 0;
+    z-index: 999;
     li {
       width: 25%;
       height: 0.85rem;

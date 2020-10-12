@@ -15,10 +15,25 @@
           </p>
         </div>
         <div class="xxx">
-          <div>
+          <div v-if="false">
             <p>购物车还是空的</p>
-            <span>去逛逛</span>
+            <span class="spans">去逛逛</span>
           </div>
+          <ol class="ul">
+            <li>
+              <img src="../assets/img/1.jpg" alt="">
+              <div class="a">
+                <p>小木吧屏幕指纹版</p>
+                <p class="c">￥7999</p>
+                <div class="xjl">
+                  <p style="background:#F6F6F6">-</p>
+                  <p style="background:#fff">4</p>
+                  <p style="background:#F6F6F6">+</p>
+                </div>
+                <span class="iconfont icon-lajitong" id="span"></span>
+              </div>
+            </li>
+          </ol>
         </div>
         <img src="../assets/img/1.jpg" alt="" />
         <div class="div">
@@ -56,7 +71,6 @@ export default {
   },
   methods: {
     fn(i){
-      console.log(i)
       this.$router.push({path:'/Mini',query:{userid:i}})
     }
   }
@@ -109,7 +123,7 @@ export default {
   }
   .xxx {
     width: 100%;
-    height: 1.21rem;
+    // height: 1.21rem;
     background: #ebebeb;
     overflow: hidden;
     div {
@@ -120,11 +134,11 @@ export default {
       p {
         color: #ababab;
         float: left;
-        height: 0.5rem;
-        line-height: 0.5rem;
-        margin-top: 0.4rem;
+        // height: 0.5rem;
+        // line-height: 0.5rem;
+        // margin-top: 0.4rem;
       }
-      span {
+      .spans {
         width: 1.24rem;
         height: 0.5rem;
         display: block;
@@ -147,7 +161,7 @@ export default {
 }
 ul {
   width: 100%;
-  height: 10rem;;
+  height: 14.8rem;;
   li {
     width: 48%;
     height: 4.61rem;
@@ -171,5 +185,54 @@ ul {
       margin-top: 0.1rem;
     }
   }
+}
+.ul{
+  width:100%; 
+  background:#fff; 
+  p{
+
+    margin-top:0rem;
+  }
+ li{
+   width:100%;
+   height:2.22rem;
+   img{
+     width: 1.67rem;
+     height:1.87rem;
+     margin-left:0.2rem;
+     margin-top: 0.15rem;
+     float: left;
+   }
+   .a{
+     width:4.64rem;
+     height:1.73rem;
+     float: left;
+     margin-left: 0.1rem;
+     margin-top: 0.2rem;
+
+   }
+ }
+
+}
+
+.xjl{
+  width:2.42rem;
+  height: 0.72rem;
+  float: left;
+  border:1px solid #BBBBBB;
+  border-radius: 2px;
+  p{
+    width: 33%;
+    height: 0.72rem;
+    text-align: center;
+    line-height: 0.72rem;
+  }
+}
+#span{
+  display: block;
+  float: right;
+}
+.c{
+  width: 3rem;
 }
 </style>
