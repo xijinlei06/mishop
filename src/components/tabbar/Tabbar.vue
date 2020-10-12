@@ -27,28 +27,24 @@ export default {
           path: '/Home',
           name: '首页',
           src: 'icon-shouye',
-          bcak: '#87D7F3',
         },
         {
           id: 1,
           path: '/Fenlei',
           name: '分类',
           src: 'icon-fenlei',
-          bcak: '#87D7F3',
         },
         {
           id: 2,
           path: '/Gouwuche',
           name: '购物车',
           src: 'icon-gouwuche',
-          bcak: '#87D7F3',
         },
         {
           id: 3,
           path: '/Geren',
           name: '个人',
           src: 'icon-geren',
-          bcak: '#87D7F3',
         },
       ],
     }
@@ -67,6 +63,7 @@ export default {
     width: 100%;
     height: 0.85rem;
     position: fixed;
+    background:#fff;
     left: 0;
     bottom: 0;
     li {
@@ -77,7 +74,6 @@ export default {
       text-align: center;
       span {
         font-size: 0.5rem;
-        // color:red;
       }
     }
   }

@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Fenlei from "../views/Fenlei.vue";
 import Geren from "../views/Geren.vue";
 import Gouwuche from "../views/Gouwuche.vue";
+import Mini from "../views/mini/Mini.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -11,7 +12,6 @@ const routes = [
     path: "/",
     name: "/Home",
     component: Home,
-    // redirect: "/Home",
   },
   {
     path: "/Home",
@@ -32,6 +32,11 @@ const routes = [
     path: "/fenlei",
     name: "Fenlei",
     component: Fenlei
+  },
+  {
+    path: "/Mini",
+    name: "Mini",
+    component: Mini
   },
   // {
   //   path: "/about",
