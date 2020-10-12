@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p>购物车</p>
+    <div class="title">
+
+    </div>
   </div>
 </template>
 
@@ -11,5 +13,10 @@
 </script>
 
 <style lang="less" scoped>
-
+.title{
+  width:6.4rem;
+  height:10.51rem;
+  background:red;
+  margin:auto;
+}
 </style>
