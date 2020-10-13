@@ -4,13 +4,13 @@ import Home from "../views/Home.vue";
 import Fenlei from "../views/Fenlei.vue";
 import Geren from "../views/Geren.vue";
 import Gouwuche from "../views/Gouwuche.vue";
-import Site from '../views/Site.vue'
-import Sitemsg from '../views/Sitemsg.vue'
+import Site from "../views/Site.vue";
+import Sitemsg from "../views/Sitemsg.vue";
 
-import { Popup } from 'vant';
-import { Cell } from 'vant';
-import { Row } from 'vant';
-import { Area } from 'vant';
+import { Popup } from "vant";
+import { Cell } from "vant";
+import { Row } from "vant";
+import { Area } from "vant";
 Vue.use(Popup);
 Vue.use(Cell);
 Vue.use(Row);
@@ -60,19 +60,18 @@ const routes = [
     }
   },
   {
-    path:"/Site",
-    name:'Site',
-    component:Site,
+    path: "/Site",
+    name: "Site",
+    component: Site,
     meta: {
       isShowTabber: false
     }
   },
   {
-    path:"/Sitemsg",
-    name:'Sitemsg',
-    component:Sitemsg,
-    
-  },
+    path: "/Sitemsg",
+    name: "Sitemsg",
+    component: Sitemsg
+  }
   // {
   //   path: "/about",
   //   name: "About",

@@ -2,8 +2,8 @@
   <div class="box">
     <div class="icon">
       <div class="icon_top">
-          <div class="ic"></div>
-          <p>154548787</p>
+        <div class="ic"></div>
+        <p>154548787</p>
       </div>
       <div class="indent">
         <div class="te">
@@ -45,7 +45,9 @@
     </div>
     <div class="bot">
       <div class="bot_t">
-        <div class="bott_l"><span class="iconfont icon-wodeyouhuijuan"></span></div>
+        <div class="bott_l">
+          <span class="iconfont icon-wodeyouhuijuan"></span>
+        </div>
         <div class="bott_r">
           <p>我的优惠</p>
           <span class="iconfont icon-youjiantou"></span>
@@ -81,187 +83,184 @@
 </template>
 
 <script>
-  export default {
-    data(){
-      return{
-
-      }
-    },
-    methods:{
-      fun(){
-        this.$router.push('/Sitemsg')
-      }
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    fun() {
+      this.$router.push("/Sitemsg");
     }
   }
+};
 </script>
 
 <style lang="less" scoped>
-body{
+body {
   background: red;
-  .box{
+  .box {
     width: 100%;
-    .icon{
-      .icon_top{
+    .icon {
+      .icon_top {
         width: 100%;
         height: 2.38rem;
         background: #f37d0f;
-        .ic{
-          width: .85rem;
-          height: .85rem;
+        .ic {
+          width: 0.85rem;
+          height: 0.85rem;
           float: left;
           border-radius: 50%;
-          border: .1rem solid #f8b16f;
-          margin-left: .26rem;
-          margin-top: .55rem;
+          border: 0.1rem solid #f8b16f;
+          margin-left: 0.26rem;
+          margin-top: 0.55rem;
         }
-        p{
+        p {
           float: left;
           color: #ffffff;
-          font-size: .17rem;
+          font-size: 0.17rem;
           margin-left: 0.14rem;
           margin-top: 0.88rem;
         }
       }
-      .indent{
+      .indent {
         width: 100%;
-        height: .82rem;
+        height: 0.82rem;
         border-bottom: 1px solid #ccc;
-        .te{
+        .te {
           width: 6.7rem;
-          height: .3rem;
+          height: 0.3rem;
           float: left;
-          margin-left: .26rem;
-          margin-top: .26rem;
-          padding-right: .1rem;
-          .tit{
-            font-size: .3rem;
+          margin-left: 0.26rem;
+          margin-top: 0.26rem;
+          padding-right: 0.1rem;
+          .tit {
+            font-size: 0.3rem;
             color: #000;
             float: left;
           }
-          p{
+          p {
             float: right;
-            font-size: .22rem;           
+            font-size: 0.22rem;
           }
         }
-        span{
+        span {
           float: left;
-          font-size: .35rem;
-          margin-top: .24rem;
+          font-size: 0.35rem;
+          margin-top: 0.24rem;
         }
       }
-      .icon_bottom{
+      .icon_bottom {
         width: 100%;
         height: 2.68rem;
         background: #ffffff;
         display: flex;
-        border-bottom: .22rem solid #f5f5f5;
-        div{
+        border-bottom: 0.22rem solid #f5f5f5;
+        div {
           flex: 1;
           text-align: center;
           font-size: 1.3rem;
-          span{
-            font-size: .4rem;
+          span {
+            font-size: 0.4rem;
           }
         }
       }
     }
-    .bot{
+    .bot {
       width: 100%;
       height: 1.85rem;
-      border-bottom: .22rem solid #f5f5f5;
-      .bot_t{
+      border-bottom: 0.22rem solid #f5f5f5;
+      .bot_t {
         width: 100%;
-        height: .88rem;
-        .bott_l{
-          width: .97rem;
-          height: .88rem;
+        height: 0.88rem;
+        .bott_l {
+          width: 0.97rem;
+          height: 0.88rem;
           float: left;
           text-align: center;
-          line-height: .88rem;
-          span{
-            font-size: .41rem;
+          line-height: 0.88rem;
+          span {
+            font-size: 0.41rem;
             color: #ff6600;
           }
         }
-        .bott_r{
+        .bott_r {
           width: 6.53rem;
-          height: .86rem;
+          height: 0.86rem;
           float: left;
           border-bottom: 1px solid #d9d9d9;
-          p{
-            font-size: .36rem;
+          p {
+            font-size: 0.36rem;
             float: left;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
-          span{
+          span {
             float: right;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
         }
       }
-      .bot_b{
+      .bot_b {
         width: 100%;
-          .botb_l{
-          width: .97rem;
-          height: .88rem;
+        .botb_l {
+          width: 0.97rem;
+          height: 0.88rem;
           float: left;
           text-align: center;
-          line-height: .88rem;
-          span{
-            font-size: .41rem;
+          line-height: 0.88rem;
+          span {
+            font-size: 0.41rem;
             color: #ff6600;
           }
         }
-        .botb_r{
+        .botb_r {
           width: 6.53rem;
-          height: .86rem;
+          height: 0.86rem;
           float: left;
-          p{
-            font-size: .36rem;
+          p {
+            font-size: 0.36rem;
             float: left;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
-          span{
+          span {
             float: right;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
         }
       }
     }
-    .bots{
+    .bots {
       width: 100%;
-      border-bottom: .22rem solid #f5f5f5;
-      .bot_ts{
+      border-bottom: 0.22rem solid #f5f5f5;
+      .bot_ts {
         width: 100%;
-        height: .88rem;
-        .bott_l{
-          width: .97rem;
-          height: .88rem;
+        height: 0.88rem;
+        .bott_l {
+          width: 0.97rem;
+          height: 0.88rem;
           float: left;
           text-align: center;
-          line-height: .88rem;
-          span{
-            font-size: .41rem;
+          line-height: 0.88rem;
+          span {
+            font-size: 0.41rem;
             color: #ff6600;
           }
         }
-        .bott_r{
+        .bott_r {
           width: 6.53rem;
-          height: .86rem;
+          height: 0.86rem;
           float: left;
-          p{
-            font-size: .36rem;
+          p {
+            font-size: 0.36rem;
             float: left;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
-          span{
+          span {
             float: right;
-            margin-top: .27rem;
+            margin-top: 0.27rem;
           }
         }
       }
-      }
+    }
   }
 }
-
 </style>
